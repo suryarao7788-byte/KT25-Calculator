@@ -3,7 +3,7 @@ import random
 import json
 from collections import Counter
 
-st.set_page_config(page_title="KT24 Simulator", page_icon="⚔️", layout="wide")
+st.set_page_config(page_title="KT25 Calculator", page_icon="⚔️", layout="wide")
 
 # 40K THEME CSS
 st.markdown("""
@@ -552,5 +552,6 @@ if st.button("🎲 Run Simulation (10,000 trials)", type="primary", use_containe
             st.markdown(f"💀 **{dmg} damage:** {pct:.1f}% {bar}")
         else:
             st.write(f"{dmg} damage: {pct:.1f}% {bar}")
+
 
 st.caption("✅ Full KT24 simulator with Brutal & Punishing!")
